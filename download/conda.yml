@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - protobuf<3.20.0
   - requests=2.24.0
-  - pip=20.3.3
-  - pip:
-      - wandb==0.10.21
+  - wandb
